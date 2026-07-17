@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="main-head">
+                <div>
+                    <h1>Good Morning, Jack</h1>
+                    <p>Welcome to Academia</p>
+                </div>
+
+                <div id="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+
+            <div id="card">
+                <div class="card-info" style="background-color: rgb(186, 220, 232);">
+                    <div class="insidecard" style="background-color: rgb(164, 215, 232);">
+                        <span class="icon">
+                            <br>
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <p>Total Students</p>
+                        </span>
+
+                        <span>
+                            <br>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </div>
+
+                    <span id="numb">
+                        <h2>2000</h2>
+                    </span>
+                </div>
+
+                <div class="card-info" style="background-color: rgb(244, 219, 223);">
+                    <div class="insidecard" style="background-color: rgb(248, 194, 202);">
+                        <span class="icon">
+                            <br>
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <p>Total Teacher</p>
+                        </span>
+
+                        <span>
+                            <br>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </div>
+
+                    <span id="numb">
+                        <h2>120</h2>
+                    </span>
+                </div>
+
+                <div class="card-info" style="background-color: rgb(248, 216, 248);">
+                    <div class="insidecard" style="background-color: rgb(245, 198, 245);">
+                        <span class="icon">
+                            <br>
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <p>Total Courses</p>
+                        </span>
+
+                        <span>
+                            <br>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </div>
+
+                    <span id="numb">
+                        <h2>25</h2>
+                    </span>
+                </div>
+
+                <div class="card-info">
+                    <div class="insidecard">
+                        <span class="icon">
+                            <br>
+                            <i class="fa-solid fa-wallet"></i>
+                            <p>Total Earnning</p>
+                        </span>
+
+                        <span class="icon">
+                            <br>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </div>
+
+                    <span id="numb">
+                        <h2>$26.7k</h2>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <aside>
+            <div id="asidetop">
+                <img src="/assets/aside circle.png" alt="logo"><br>
+                <i class="fa-solid fa-cubes-stacked"></i>
+                <p>Dashboard</p>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p>Students</p>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <p>Teacher</p>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <p>Course</p>
+                <i class="fa-solid fa-wallet"></i>
+                <p>Earning</p>
+                <i class="fa-solid fa-message"></i>
+                <p>Message</p>
+                <i class="fa-solid fa-gear"></i>
+                <p>Setting</p>
+            </div>
+
+            <div id="asidedown">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </div>
+
+
+        </aside>
+
+        <main>
+            <div id="graph">
+
+            </div>
+        </main>
+
+        <footer>
+            <div id="table-container">
+                <div id="table-top">
+                    <div id="top">
+                        <h2>Students Performance</h2>
+                    </div>
+
+                    <span class="select" id="sos">
+                        <label for="class">Class</label>
+                        <select name="class" id="class"></select>
+                    </span>
+                    <div class="select">
+                        <label for="Grade">Grade</label>
+                        <select id="Grade"></select>
+                    </div>
+                </div>
+
+                <div>
+                    <table>
+                        <tr>
+                            <th class="head">Name</th>
+                            <th class="head ">Class</th>
+                            <th class="head">Grade</th>
+                            <th class="head">Percantage</th>
+                        </tr>
+
+                        <tr>
+                            <td>France Swan</td>
+                            <td class="data">Class 12</td>
+                            <td class="data">Grade A</td>
+                            <td class="data">99.9%</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dennis Cellis</td>
+                            <td class="data">Class 10</td>
+                            <td class="data">Grade B</td>
+                            <td class="data">80.9%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="pie">
+
+            </div>
+        </footer>
+
+        <aside2>
+            <div id="p-top">
+                <div id="noti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="pfp">
+                    <img src="/assets/pfp.webp" alt="pfp">
+                    <p>Sai Rathore <i class="fa-solid fa-angle-down"></i></p>
+                </div>
+            </div>
+
+            <div id="end-card">
+                <h2>Join the community and Find out more</h2>
+                <button>Explore Now</button>
+            </div>
+
+            <div id="calendar-container">
+                <div id="calendar-header">
+                    <h3>June 2024</h3>
+                </div>
+                <table id="calendar-table">
+                    <thead>
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="other-month">26</td>
+                            <td class="other-month">27</td>
+                            <td class="other-month">28</td>
+                            <td class="other-month">29</td>
+                            <td class="other-month">30</td>
+                            <td class="other-month">31</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td class="today">25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td class="other-month">1</td>
+                            <td class="other-month">2</td>
+                            <td class="other-month">3</td>
+                            <td class="other-month">4</td>
+                            <td class="other-month">5</td>
+                            <td class="other-month">6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="event">
+                <div id="event-head">
+                    <h2>Upcoming Events</h2>
+                </div>
+                <div class="foot">
+                    <p> 28 jun, 2024 </p>
+                    <h6>School Annual Function</h6>
+                </div>
+                <div class="foot">
+                    <p> 30 jun, 2024 </p>
+                    <h6>Class 12 Farewell</h6>
+                </div>
+            </div>
+        </aside2>
+    </div>
+</body>
+
+</html>
